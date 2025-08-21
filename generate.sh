@@ -22,7 +22,7 @@ IFS=',' read -ra IP_ARRAY <<< "$LANCACHE_IP"
 
 echo "Getting domains from uklans/cache-domains"
 rm -rf cache-domains
-git clone git@github.com:uklans/cache-domains.git --depth 1
+git clone --depth 1 https://github.com/uklans/cache-domains.git
 
 # Set the upstreams we want to create unbound configuration for
 declare -a SERVICES=("blizzard" "epicgames" "riot" "steam" "windowsupdates")

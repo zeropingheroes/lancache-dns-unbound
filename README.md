@@ -7,7 +7,7 @@ Thanks to [uklans.net](https://uklans.net/) for compiling and maintaining the li
 
 ## Setup
 
-1. `git clone https://github.com/zeropingheroes/lancache-dns-pfsense.git`
+1. `git clone https://github.com/zeropingheroes/lancache-dns-unbound.git`
 2. `cp .env.example .env`
 3. `nano .env`
 
